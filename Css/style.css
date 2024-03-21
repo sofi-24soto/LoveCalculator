@@ -1,0 +1,97 @@
+
+body{
+    background-image: url('../Img/love.jpg');
+    
+}
+
+.main-div{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.your-div, .partner-div{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    box-shadow: 3px 3px 12px rgb(177, 164, 95);
+    font-family: 'Goudy Stout';
+}
+
+input{
+    border: 1px solid rgb(99, 224, 197);
+    border-radius: 5px;
+    padding: 7px 6px;
+    font-weight: 600;
+    color: rgb(185, 96, 111);
+}
+
+input:hover{
+    box-shadow: 2px 4px 12px rgb(7, 58, 124);
+}
+
+label{
+    padding-right: 20px;
+    font-family: 'Cooper Black';
+    font-size: 150%;
+}
+
+#result{
+    font-weight: 700;
+    margin-top: 2%;
+    color: rgb(149, 77, 151);
+    font-size: 120%;
+}
+
+#btn{
+    margin: 2%;
+    border: none;
+    background-color: rgb(72, 99, 150);
+    border-radius: 12px;
+    font-size: 100%;
+    padding: 7px 19px;
+    color: rgb(214, 207, 197);
+}
+
+
+#btn:hover{
+    box-shadow: 3px 3px 12px rgb(177, 164, 95);
+}
+
+/* Devices Mobiles */
+@media only screen and (max-width:767px) {
+    h2 {
+     font-size: 120%;
+     margin-left: -14%;
+     margin-top: 2%;
+    }
+    h1{
+     width: 100%;
+     font-size: 170%;
+    }
+
+    input{
+        width: 200px;
+        padding: 12px 6px;
+    }
+     
+     #btn{
+         font-size: 150%;
+         margin-top: 15%;
+     }
+     #result{
+         background-color: rgb(223, 230, 136);
+         font-weight: 700;
+         margin-top: 15%;
+         font-size: 150%;
+     }
+     
+     .your-div, .partner-div{
+        margin-top: 5% 0% 5% 0%;
+        
+     }
+     
+ }
